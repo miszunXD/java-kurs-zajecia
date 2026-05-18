@@ -1,7 +1,5 @@
 package classes;
 
-import java.math.BigDecimal;
-
 public class FoodProduct extends Product{
     private String expiryDate;
 

@@ -1,7 +1,5 @@
 package classes;
 
-import java.math.BigDecimal;
-
 public class Electronics extends Product{
     private int warranty;
 

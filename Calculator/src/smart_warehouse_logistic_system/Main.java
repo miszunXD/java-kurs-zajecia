@@ -13,7 +13,7 @@ public class Main {
          electronics.showInventory();
 
          for (Electronics e : electronics.getProducts()) {
-             if (e instanceof Shipable shipable) {
+             if (e != null) {
                  e.ship("Kolejowa 14, 95-050 Konstantynów Łódzki");
              }
          }

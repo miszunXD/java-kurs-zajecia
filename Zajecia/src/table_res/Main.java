@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Komunikat błędu: " + e.getMessage());
         }
 
-        // bookawanie tego samego stolika - wykorzystanie stolika z przykładu 1
+        // bookawanie tego samego stolika
         var doubleBookedTable = new Table(4);
 
         try {

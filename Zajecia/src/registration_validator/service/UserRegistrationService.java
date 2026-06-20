@@ -115,8 +115,7 @@ public class UserRegistrationService {
     private List<String> collectPasswordDetails(String password) {
         List<String> details = new ArrayList<>();
 
-        if (password.length() < 8) {
-            details.add("Hasło jest za krótkie - min. 8 znaków!");
+        if (password.length() < 8) {            details.add("Hasło jest za krótkie - min. 8 znaków!");
         }
 
         if (!password.matches(".*[A-Z].*")) {

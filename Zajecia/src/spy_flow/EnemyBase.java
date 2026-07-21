@@ -1,4 +1,8 @@
 package spy_flow;
 
-public record EnemyBase() {
+public record EnemyBase(
+        String baseId,
+        String location,
+        int threatLevel
+) {
 }

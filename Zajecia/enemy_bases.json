@@ -1,0 +1,14 @@
+[
+  {
+    "baseId": "ALPHA-01",
+    "location": "Syberia",
+    "threatLevel": 8,
+    "encrypted_hash": "x8f92ma!11"
+  },
+  {
+    "baseId": "OMEGA-99",
+    "location": "Pacyfik",
+    "threatLevel": 10,
+    "encrypted_hash": "z00021!bb"
+  }
+]
